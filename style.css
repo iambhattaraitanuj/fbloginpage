@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: rgb(231, 231, 231);
+    /* border: 1px solid red; */
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=text],
+input[type=password] {
+    margin: 7px;
+    padding: 15px;
+    border-radius: 7px;
+    border: 1px solid silver;
+    width: 20rem;
+    outline: none;
+    font-size: 16px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus{
+    border: 1.8px solid #1877F2;
+}
+
+h1 {
+    color: #1877F2;
+    font-size: 4.5rem;
+    margin: -5rem 0 0.9rem 0;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+button[type=submit] {
+    background-color: #1877F2;
+    margin: 7px;
+    padding: 15px;
+    border-radius: 7px;
+    width: 22rem;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button[type=submit]:hover{
+    background-color: #2584ff;
+}
+
+button[type=button] {
+    background-color: rgb(64, 187, 64);
+    margin: 25px;
+    padding: 15px;
+    border-radius: 7px;
+    width: 12rem;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button[type=button]:hover{
+    background-color: rgb(71, 196, 71);
+}
+/* .newac{
+    border: 1px solid red;
+} */
+
+.fp {
+    margin: 10px 0 15px 7.5rem;
+    color: #1877F2;
+    font-size: 15px;
+    text-decoration: none;
+    /* border: 1px solid red; */
+    width: 7.6rem;
+}
+
+.fp:hover{
+    text-decoration: underline;
+}
+
+.left-container {
+    /* border: 1px solid blue; */
+    margin: 0 10rem 0 0;
+}
+
+.right-container {
+    box-shadow: 0px 3px 18px -10px black;
+    height: 21rem;
+    width: 24rem;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* border-style: ; */
+}
+
+form {
+    margin-top: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* align-items: center; */
+    justify-content: center;
+}
